@@ -4,7 +4,7 @@ import { authRoutes } from '@auth/routes/auth';
 import { currentUserRoutes } from '@auth/routes/current-user';
 import { healthRoutes } from '@auth/routes/health';
 import { searchRoutes } from '@auth/routes/search';
-import { seedRoutes } from '@auth/routes/seed';
+import { seedRoutes } from '@auth/routes/seeds';
 
 const BASE_PATH = '/api/v1/auth';
 
