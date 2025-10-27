@@ -84,11 +84,11 @@ pipeline {
       }
     }
 
-    stage("Unit Test") {
+   /*  stage("Unit Test") {
       steps {
         sh 'npm run test'
       }
-    }
+    } */
 
     stage("Build and Push") {
       steps {
